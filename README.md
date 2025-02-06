@@ -1,3 +1,0 @@
-# GTMovieStore
-
-added login
