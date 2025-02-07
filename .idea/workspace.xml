@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08c5c7dd-1773-40da-ab63-16bec11cddbd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/login/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviestore/Scripts/Activate.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviestore/Scripts/activate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviestore/Scripts/activate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviestore/Scripts/deactivate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviestore/Scripts/pip.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviestore/Scripts/pip3.12.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviestore/Scripts/pip3.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviestore/Scripts/python.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviestore/Scripts/pythonw.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviestore/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GTMovieStore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GTMovieStore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +19,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="login" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -51,14 +42,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/cabrinho/Desktop/GTMovieStore",
-    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,12 +55,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\cabrinho\Desktop\GTMovieStore\login\static\css" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Django Server.GTMovieStore">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="GTMovieStore" />
       <option name="ENV_FILES" value="" />
@@ -112,7 +94,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="" />
+      <option name="host" value="localhost" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
@@ -125,8 +107,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220" />
-        <option value="bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
       </set>
     </attachedChunks>
   </component>
@@ -141,10 +123,7 @@
       <workItem from="1738428786805" duration="849000" />
       <workItem from="1738429642480" duration="1401000" />
       <workItem from="1738598824650" duration="1060000" />
-      <workItem from="1738607405186" duration="525000" />
-      <workItem from="1738862819971" duration="122000" />
-      <workItem from="1738863015760" duration="14000" />
-      <workItem from="1738863030966" duration="5313000" />
+      <workItem from="1738607405186" duration="13431000" />
     </task>
     <servers />
   </component>
