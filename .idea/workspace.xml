@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08c5c7dd-1773-40da-ab63-16bec11cddbd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/GTMovieStore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GTMovieStore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GTMovieStore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/GTMovieStore/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GTMovieStore/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/GTMovieStore/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GTMovieStore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/GTMovieStore/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +45,6 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -63,12 +55,6 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\cabrinho\Desktop\GTMovieStore" />
-      <recent name="C:\Users\cabrinho\Desktop\GTMovieStore\movies" />
-    </key>
-  </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="GTMovieStore" />
@@ -121,8 +107,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220" />
-        <option value="bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
       </set>
     </attachedChunks>
   </component>
@@ -138,8 +124,6 @@
       <workItem from="1738429642480" duration="1401000" />
       <workItem from="1738598824650" duration="1060000" />
       <workItem from="1738607405186" duration="13431000" />
-      <workItem from="1739036467473" duration="52000" />
-      <workItem from="1739036527423" duration="3519000" />
     </task>
     <servers />
   </component>
