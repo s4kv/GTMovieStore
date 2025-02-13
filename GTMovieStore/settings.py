@@ -28,6 +28,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["gt-movie-store-sakvii.replit.app"]
 
+CSRF_TRUSTED_ORIGINS = ["https://gt-movie-store-sakvii.replit.app"]
+
 # Application definition
 
 INSTALLED_APPS = [
