@@ -26,9 +26,12 @@ SECRET_KEY = "django-insecure-h%l_xt=md3f(0a$x$4b574f$h_fs5e0p57+u&fk^as9e+638(q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["gt-movie-store-sakvii.replit.app"]
+ALLOWED_HOSTS = ["gt-movie-store-sakvii.replit.app", "127.0.0.1", "localhost"]
 
-CSRF_TRUSTED_ORIGINS = ["https://gt-movie-store-sakvii.replit.app"]
+CSRF_TRUSTED_ORIGINS = [
+    "https://gt-movie-store-sakvii.replit.app", "https://127.0.0.1:8000",
+    "https://localhost:8000"
+]
 
 # Application definition
 
