@@ -40,11 +40,23 @@
 }
 
 .img-card-200 {
-  width: fit-content;
+  width: 100%;
+  height: auto;
   max-height: 200px;
+  object-fit: contain;
 }
 
 .img-card-400 {
-  width: fit-content;
+  width: 100%;
+  height: auto;
   max-height: 400px;
+  object-fit: contain;
+}
+
+.img-movie {
+  width: 100%; /* Ensure the image takes the full column width */
+  max-width: 400px; /* Adjust this to control max size */
+  height: auto; /* Keep aspect ratio */
+  display: block;
+  margin: auto;
 }
