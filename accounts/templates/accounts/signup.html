@@ -11,9 +11,7 @@
             <form method="POST">
               {% csrf_token %}
               {{ template_data.form.as_p }}
-              <button type="submit"
-                class="btn bg-dark text-white">Sign Up
-              </button>
+              <button type="submit" class="btn btn-dark text-white">Sign Up</button>
             </form>
           </div>
         </div>
@@ -21,4 +19,12 @@
     </div>
   </div>
 </div>
+
+<style>
+  .btn-dark:hover {
+    background-color: black;
+    color: white;
+  }
+</style>
 {% endblock content %}
+``` ▋

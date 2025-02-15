@@ -3,14 +3,17 @@
 <div class="p-3">
   <div class="container">
     <div class="row mt-3">
-      <div class="col mx-auto mb-3">
-        <h2>Purchase Completed</h2>
+      <div class="col mx-auto mb-3 text-center">
+        <h2 style="color: white;">Purchase Completed</h2>
         <hr />
-        <p>Congratulations, purchase completed. Order
-          number is: <b>#{{ template_data.order_id }}</b>
-        </p>
+        <div style="background-color: white; padding: 15px; border-radius: 10px; display: inline-block; text-align: center;">
+          <p style="color: black;">Congratulations, purchase completed. Order number is: <b>#{{ template_data.order_id }}</b></p>
+          <p style="color: black; margin-top: 20px;">If you would like to purchase more movies, click here:</p>
+          <a href="{% url 'movies.index' %}" class="btn btn-dark text-white">Back to Movies List</a>
+        </div>
       </div>
     </div>
   </div>
 </div>
 {% endblock content %}
+``` ▋
