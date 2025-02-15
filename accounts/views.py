@@ -2,9 +2,13 @@ from django.shortcuts import render
 from django.contrib.auth.forms import UserCreationForm
 from django.shortcuts import redirect
 from django.contrib.auth import login as auth_login, authenticate, logout as auth_logout
+from django.urls import reverse_lazy
+
 from .forms import CustomUserCreationForm, CustomErrorList
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
+
+
 # Create your views here.
 @login_required
 def logout(request):
@@ -45,6 +49,8 @@ def signup(request):
             template_data['form'] = form
             return render(request, 'accounts/signup.html',
                           {'template_data': template_data})
+
+
 @login_required
 def orders(request):
     template_data = {}
