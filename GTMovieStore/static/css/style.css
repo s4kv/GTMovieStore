@@ -1,10 +1,18 @@
+
+
 .bg-index {
-  background: url("/static/img/background.jpg") no-repeat fixed;
-  background-size: 100% auto;
+  background: url("/static/img/main.png") no-repeat fixed;
+  background-size: cover;
+}
+
+.bg-index-with-gap {
+  background: url("/static/img/main.png") no-repeat fixed;
+  background-size: cover;
+  padding: 20px 0; /* Add padding to create a gap */
 }
 
 .navbar a.nav-link {
-  color: #fffef6 !important;
+  color: #f8f6ff !important;
 }
 
 .bg-dark {
@@ -12,16 +20,16 @@
 }
 
 .ms-footer {
-  background-color: #202020;
+  background-color: #5d1717;
 }
 
 .ms-footer p {
-  color: #7f7f7f;
+  color: #cfc9c9;
   font-size: 13px;
 }
 
 .ms-footer a:hover {
-  color: #6ab43e;
+  color: #4039ff;
   text-decoration: none;
 }
 
@@ -31,12 +39,12 @@
 }
 
 .ms-footer-bottom a {
-  color: #6ab43e;
+  color: #e11818;
   text-decoration: none;
 }
 
 .ms-footer-bottom a:hover {
-  color: #fff;
+  color: #500303;
 }
 
 .img-card-200 {
@@ -59,4 +67,27 @@
   height: auto; /* Keep aspect ratio */
   display: block;
   margin: auto;
+}
+
+.body-bg {
+  background-image: url("/static/img/main.png"); /* Path to your body background image */
+  background-repeat: no-repeat;
+  background-size: cover; /* Cover the entire viewport */
+  background-attachment: fixed; /* Make the background image fixed */
+  position: relative;
+  min-height: 100vh; /* Ensure it covers the entire viewport height */
+  z-index: -1; /* Ensure it is behind other content */
+}
+
+.content {
+  position: relative;
+  z-index: 1; /* Ensure content is above the background image */
+}
+
+.content-gap {
+  padding: 20px 0; /* Add padding to create a gap */
+}
+
+.navbar, .footer {
+  background: transparent; /* Ensure transparency to show the body background */
 }
