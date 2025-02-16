@@ -102,3 +102,85 @@ html, body {
 .content {
     flex: 1; /* Pushes footer to bottom */
 }
+.center-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ui.button.positive {
+  background-color: black;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.ui.button.positive:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-button {
+  background-color: black;
+  color: white;
+  border-radius: 12px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.home-button:hover {
+  background-color: lightgrey;
+  color: black;
+}
+.rounded-form {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+  text-align: left; /* Align text to the left inside the form */
+}
+
+.rounded-form .form-control {
+  border-radius: 8px; /* Rounded corners for input fields */
+}
+
+.rounded-form ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+}
+
+.rounded-form ul li {
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+
+.rounded-form ul li::before {
+  content: "• "; /* Custom bullet points */
+  color: black; /* Bullet point color */
+  font-size: 1.2em;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.navbar-nav .nav-link {
+  color: white;
+  background-color: transparent; /* Initial transparent background */
+  padding: 10px 15px; /* Add some padding to make it look like a button */
+  border-radius: 5px; /* Add rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgb(10, 10, 10); /* Background color on hover */
+  color: white; /* Text color on hover */
+}
