@@ -4,8 +4,8 @@
 <div class="p-3">
   <div class="container">
     <div class="row mt-3">
-      <!-- Movie Details Section -->
-      <div class="col-md-7 mx-auto mb-3">
+      <!-- Left Section: Movie Details & Reviews -->
+      <div class="col-md-7 mb-3">
         <h2 style="color: white;">{{ template_data.movie.name }}</h2>
         <hr />
         <div style="background-color: white; padding: 15px; border-radius: 10px;">
@@ -39,14 +39,41 @@
             <h5 class="card-title" style="color: black;">Review by {{ review.user.username }}</h5>
             <h6 class="card-subtitle mb-2 text-muted" style="color: black;">{{ review.date }}</h6>
             <p class="card-text">{{ review.comment }}</p>
+
+            {% if user.is_authenticated and user == review.user %}
+              <a class="btn btn-primary btn-sm" href="{% url 'movies.edit_review' id=template_data.movie.id review_id=review.id %}">Edit</a>
+              <a class="btn btn-danger btn-sm" href="{% url 'movies.delete_review' id=template_data.movie.id review_id=review.id %}">Delete</a>
+            {% endif %}
           </li>
           {% endfor %}
         </ul>
+
+        {% if user.is_authenticated %}
+        <div class="mt-4">
+          <div class="card shadow p-3 rounded">
+            <div class="card-body">
+              <b class="text-start">Create a review</b><br /><br />
+              <form method="POST" action="{% url 'movies.create_review' id=template_data.movie.id %}">
+                {% csrf_token %}
+                <p>
+                  <label for="comment">Comment:</label>
+                  <textarea name="comment" required class="form-control" id="comment"></textarea>
+                </p>
+                <div class="text-center">
+                  <button type="submit" class="btn bg-dark text-white">
+                    Add Review
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        {% endif %}
       </div>
 
-      <!-- Movie Poster Section (Adjusted for Better Fit) -->
-      <div class="col-md-5 mb-3 text-center">
-        <img src="{{ template_data.movie.image.url }}" class="rounded img-fluid img-movie">
+      <!-- Right Section: Large Movie Poster -->
+      <div class="col-md-5 d-flex align-items-center justify-content-center">
+          <img src="{{ template_data.movie.image.url }}" class="rounded img-movie shadow-lg">
       </div>
     </div>
   </div>

@@ -62,11 +62,12 @@
 }
 
 .img-movie {
-  width: 100%; /* Ensure the image takes the full column width */
-  max-width: 400px; /* Adjust this to control max size */
-  height: auto; /* Keep aspect ratio */
+  width: 100%; /* Full width of the container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Prevent it from exceeding its container */
+  max-height: 600px; /* Adjust to avoid excessive height */
   display: block;
-  margin: auto;
+  object-fit: contain; /* Ensures the full image is visible */
 }
 
 .body-bg {
