@@ -185,3 +185,6 @@ html, body {
   background-color: rgb(10, 10, 10); /* Background color on hover */
   color: white; /* Text color on hover */
 }
+.edit-review-btn:hover {
+  background-color: #555;
+}
