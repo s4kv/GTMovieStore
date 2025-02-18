@@ -13,6 +13,7 @@ venv/
 
 # Pycharm IDE files
 .idea/
+.vscode/
 
 ### OSX ###
 .DS_Store
@@ -75,3 +76,6 @@ coverage.xml
 
 # PyBuilder
 target/
+
+# sqlite3 instance
+db.sqlite3
